@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjercicioCheckBox"
+    android:orientation="vertical"
+    android:background="@drawable/background_image">
+    <TextView
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el primer valor"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el segundo valor"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <CheckBox
+        android:id="@+id/cbSumar"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar" />
+    <CheckBox
+        android:id="@+id/cbRestar"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btnOperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="operar"
+        android:text="Operar" />
+    <TextView
+        android:id="@+id/tvResultado2"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>
