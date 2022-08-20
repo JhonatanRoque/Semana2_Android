@@ -23,6 +23,7 @@
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
         android:layout_marginTop="5dp"
+        android:inputType="number"
         />
     <TextView
         android:text="Ingrese el segundo valor"
@@ -39,6 +40,7 @@
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
         android:layout_marginTop="5dp"
+        android:inputType="number"
         />
 
     <Spinner
@@ -53,16 +55,17 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
         android:layout_marginLeft="48dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="48dp"
-        android:layout_marginTop="5dp"/>.
+        android:onClick="operar"
+        android:text="Operar" />.
 
     <TextView
         android:id="@+id/tXtResul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Resultado"
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
         android:layout_marginTop="5dp"/>

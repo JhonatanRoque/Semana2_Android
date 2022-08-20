@@ -8,44 +8,35 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.CheckBox;
-import android.widget.EditText;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
-public class EjercicioCheckBox extends AppCompatActivity {
-    private EditText edt1, edt2;
-    private TextView tvResultado;
-    private CheckBox cb1, cb2;
+public class EjercicioControlListView extends AppCompatActivity {
+    private final String[] paises = {"Argentina", "Chile", "Paraguay", "Bolivia", "Peru", "Ecuador", "Brasil", "Colombia", "Venezuela", "Uruguay"};
+    private final String[] habitantes = {"40000000", "17000000", "6500000", "10000000", "30000000", "14000000", "183000000", "44000000", "29000000", "3500000" };
+    private TextView tv1;
+    private ListView lv1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio_check_box);
-        edt1 = (EditText) findViewById(R.id.edt1);
-        edt2 = (EditText) findViewById(R.id.edt2);
-        cb1 = (CheckBox) findViewById(R.id.cbRestar);
-        cb2 = (CheckBox) findViewById(R.id.cbSumar);
-        tvResultado = (TextView) findViewById(R.id.tvResultado2);
+        setContentView(R.layout.activity_ejercicio_control_list_view);
+
+        tv1 = (TextView) findViewById(R.id.tv1);
+        lv1 = (ListView) findViewById(R.id.listView);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, paises);
+        lv1.setAdapter(adapter);
+        lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    tv1.setText ( "Población de "+ lv1.getItemAtPosition(position) + " es " + habitantes[position]);
+            }
+        });
+
     }
 
-    //Este metódo se ejecutará cuando se presione el botón
-    public void operar(View view){
-        String valor1 = edt1.getText().toString();
-        String valor2 = edt2.getText().toString();
-        int n1 = Integer.parseInt(valor1);
-        int n2 = Integer.parseInt(valor2);
-        String resu = "";
-        if(cb1.isChecked() == true)
-        {
-            int resta = n1 - n2;
-            resu = "La resta es: " + resta;
-        }
-        if(cb2.isChecked() == true)
-        {
-            int suma = n1 + n2;
-            resu = resu + " La suma es: " + suma;
-        }
-        tvResultado.setText(resu);
-    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -79,4 +70,5 @@ public class EjercicioCheckBox extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

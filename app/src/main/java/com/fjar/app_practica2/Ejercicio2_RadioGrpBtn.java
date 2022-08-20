@@ -1,8 +1,12 @@
 package com.fjar.app_practica2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -45,5 +49,38 @@ public class Ejercicio2_RadioGrpBtn extends AppCompatActivity {
                 tvResultado.setText(String.valueOf(restar));
             }
         }
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        int id = item.getItemId();
+        if(id == R.id.Ejercicio1){
+            finish();
+            Intent ejercicio1 = new Intent(this, MainActivity.class);
+            startActivity(ejercicio1);
+        }else if (id == R.id.Ejercicio2){
+            finish();
+            Intent ejercicio2 = new Intent(this, Ejercicio2_RadioGrpBtn.class);
+            startActivity(ejercicio2);
+        }else if (id == R.id.Ejercicio3){
+            finish();
+            Intent ejercicio3 = new Intent(this, EjercicioCheckBox.class);
+            startActivity(ejercicio3);
+        }else if (id == R.id.Ejercicio4){
+            finish();
+            Intent ejercicio4 = new Intent(this, EjercicioControlSpinner.class);
+            startActivity(ejercicio4);
+        }else if (id == R.id.Ejercicio5){
+            finish();
+            Intent ejercicio5 = new Intent(this, EjercicioControlListView.class);
+            startActivity(ejercicio5);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
