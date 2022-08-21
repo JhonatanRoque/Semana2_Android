@@ -39,4 +39,10 @@
         android:orderInCategory="100"
         android:title="Ejercicio 6"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/Ejercicio7"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Ejercicio 7"
+        app:showAsAction="never" />
 </menu>

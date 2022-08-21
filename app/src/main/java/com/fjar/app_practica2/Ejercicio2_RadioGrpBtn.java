@@ -81,6 +81,11 @@ public class Ejercicio2_RadioGrpBtn extends AppCompatActivity {
             Intent ejercicio5 = new Intent(this, EjercicioControlListView.class);
             startActivity(ejercicio5);
         }
+        else if (id == R.id.Ejercicio6){
+            finish();
+            Intent  ejercicio6 = new Intent(this, Ejercicio_Control_ImageButton.class);
+            startActivity(ejercicio6);
+        }
         return super.onOptionsItemSelected(item);
     }
 }
