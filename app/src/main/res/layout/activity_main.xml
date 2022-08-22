@@ -66,32 +66,4 @@
         android:textAlignment="center"
         />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="ejercicio2"
-        android:text="Ejercicio 2" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="ejercicio3"
-        android:text="Ejercicio 3" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="ejercicio4"
-        android:text="Ejercicio 4" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="ejercicio5"
-        android:text="Ejercicio 5" />
-
 </androidx.appcompat.widget.LinearLayoutCompat>

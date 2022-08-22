@@ -7,42 +7,42 @@
         android:id="@+id/Ejercicio1"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 1"
-        app:showAsAction="never" />
+        android:title="Evento onclick"
+        app:showAsAction="ifRoom|withText" />
     <item
         android:id="@+id/Ejercicio2"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 2"
+        android:title="RadioGroup_Button"
         app:showAsAction="never" />
     <item
         android:id="@+id/Ejercicio3"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 3"
+        android:title="CheckBox"
         app:showAsAction="never" />
     <item
         android:id="@+id/Ejercicio4"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 4"
+        android:title="Spinner"
         app:showAsAction="never" />
     <item
         android:id="@+id/Ejercicio5"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 5"
+        android:title="ListView"
         app:showAsAction="never" />
     <item
         android:id="@+id/Ejercicio6"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 6"
+        android:title="ImageButton"
         app:showAsAction="never" />
     <item
         android:id="@+id/Ejercicio7"
         android:enabled="true"
         android:orderInCategory="100"
-        android:title="Ejercicio 7"
+        android:title="Toast"
         app:showAsAction="never" />
 </menu>

@@ -12,6 +12,7 @@
         android:layout_marginStart="29dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="13dp"
+        android:onClick="llamar"
         app:layout_constraintBottom_toTopOf="@+id/tv1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
