@@ -45,4 +45,10 @@
         android:orderInCategory="100"
         android:title="Toast"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/EjercicioPractivo"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Adivina el núumero"
+        app:showAsAction="never" />
 </menu>

@@ -78,6 +78,10 @@ public class MainActivity extends AppCompatActivity {
         }else if(id == R.id.Ejercicio7){
             Intent  ejercicio7 = new Intent(this, Ejercicio_Toast.class);
             startActivity(ejercicio7);
+        }else if (id == R.id.EjercicioPractivo) {
+            finish();
+            Intent ejercicioP = new Intent(this, Ejercicio_AdivinaElNumero.class);
+            startActivity(ejercicioP);
         }
         return super.onOptionsItemSelected(item);
     }
