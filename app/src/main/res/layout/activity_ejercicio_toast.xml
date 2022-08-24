@@ -10,13 +10,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="36dp"
         android:text="¿Cual es el número que vió?"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumber" />
 
 
     <EditText
@@ -24,10 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="21dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,11 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
-        android:layout_marginBottom="493dp"
         android:onClick="controlar"
         android:text="CONTROLAR"
         android:textSize="7dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 </androidx.constraintlayout.widget.ConstraintLayout>

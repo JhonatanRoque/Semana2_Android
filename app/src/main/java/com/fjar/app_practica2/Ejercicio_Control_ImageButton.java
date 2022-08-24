@@ -59,6 +59,18 @@ public class Ejercicio_Control_ImageButton extends AppCompatActivity {
         }else if(id == R.id.Ejercicio7){
             Intent  ejercicio7 = new Intent(this, Ejercicio_Toast.class);
             startActivity(ejercicio7);
+        }else if (id == R.id.Ejercicio8) {
+            finish();
+            Intent ejercicio8 = new Intent(this, Ejercicio_EditText.class);
+            startActivity(ejercicio8);
+        }else if (id == R.id.Ejercicio9) {
+            finish();
+            Intent ejercicio9 = new Intent(this, Ejercicio_segundoActivity.class);
+            startActivity(ejercicio9);
+        }else if (id == R.id.Ejercicio10) {
+            finish();
+            Intent ejercicio10 = new Intent(this, Registrar.class);
+            startActivity(ejercicio10);
         }else if (id == R.id.EjercicioPractivo) {
             finish();
             Intent ejercicioP = new Intent(this, Ejercicio_AdivinaElNumero.class);
