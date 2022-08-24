@@ -1,5 +1,4 @@
 package com.fjar.app_practica2;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,39 +7,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
-
-public class Ejercicio_AdivinaElNumero extends AppCompatActivity {
-    private EditText edt1;
-    private TextView txtV, txt1;
-    private Button btnAdivinar;
-    int numeroAleatorio = 1;
-
-    int[] numerosLogrados = new int[50];
-
+public class Ejercicio_segundoActivity extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ejercicio_adivina_el_numero);
-
-        //Referenciar los objetos con nuestras variables
-        edt1 = (EditText) findViewById(R.id.edtNumero);
-        btnAdivinar = (Button) findViewById(R.id.btnAdivinar);
-        txtV = (TextView) findViewById(R.id.txtVeces);
-        txt1 = (TextView) findViewById(R.id.txt1);
-
-        //ThreadLocalRandom random = ThreadLocalRandom.current();
-        //Random random = new Random();
-        GenerarAleatorio();
+        setContentView(R.layout.activity_ejercecio_segundo_activity);
     }
-
-
     @Override
     public boolean onCreateOptionsMenu (Menu menu) {
         //Inflate the menu; this adds items to the action bar if it is present.
@@ -97,37 +69,11 @@ public class Ejercicio_AdivinaElNumero extends AppCompatActivity {
             startActivity(ejercicioP);
         }
 
-
         return super.onOptionsItemSelected(item);
 
     }
-
-    public void Adivinar (View v)
-    {
-        int numero = Integer.parseInt(edt1.getText().toString());
-        if(numero > numeroAleatorio){
-            Toast.makeText(this, "El número es mayor al número a encontrarse", Toast.LENGTH_SHORT).show();
-        }else if (numero < numeroAleatorio){
-            Toast.makeText(this, "El número es menor al número a encontrarse", Toast.LENGTH_SHORT).show();
-        }else if (numero == numeroAleatorio ){
-            int logrado = Integer.parseInt(txtV.getText().toString());
-            logrado += 1;
-            numerosLogrados[logrado] = numero;
-            String n = "";
-            for (int i = 1; i <= logrado; i++){
-                if(numerosLogrados[i] == numeroAleatorio){
-                    GenerarAleatorio();
-                }
-            }
-            GenerarAleatorio();
-            Toast.makeText(this, "¡Advinaste el número, FELCIDADES!", Toast.LENGTH_SHORT).show();
-            txtV.setText(String.valueOf(logrado));
-        }
-    }
-
-    public void GenerarAleatorio(){
-        ThreadLocalRandom random = ThreadLocalRandom.current();
-        numeroAleatorio = random.nextInt(1, 51);
-
+    public void acercade(View view){
+        Intent i = new Intent(this, AcercaDe.class);
+        startActivity(i);
     }
 }
