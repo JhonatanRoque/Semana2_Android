@@ -128,6 +128,10 @@ public class Ejercicio_AdivinaElNumero extends AppCompatActivity {
             Toast.makeText(this, "¡Advinaste el número, FELCIDADES!", Toast.LENGTH_SHORT).show();
             txtV.setText(String.valueOf(logrado));
         }
+        if(numerosLogrados.length == 50){
+            Toast.makeText(this, "Ha encontrado todos los números posibles", Toast.LENGTH_SHORT).show();
+            btnAdivinar.setEnabled(false);
+        }
     }
 
     public void GenerarAleatorio(){
