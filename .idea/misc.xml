@@ -13,12 +13,15 @@
         <entry key="..\:/Users/Salvador/Documents/Android Studio/Semana2_Android/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Salvador/Documents/Android Studio/Semana2_Android/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_acerca_de.xml" value="0.25" />
+        <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_actividad2.xml" value="0.25" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_bienvenido.xml" value="0.22" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_ejercecio_segundo_activity.xml" value="0.25" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_ejercicio_control_edit_text.xml" value="0.33" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_ejercicio_control_image_button.xml" value="0.2" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_ejercicio_toast.xml" value="0.2" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_registrar.xml" value="0.33" />
+        <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/layout/activity_segunda_activity2.xml" value="0.33" />
+        <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/menu/menu_actividad2.xml" value="0.33" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/menu/menu_main.xml" value="0.2" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/menu/menu_registrar.xml" value="0.1633176571184267" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1625" />

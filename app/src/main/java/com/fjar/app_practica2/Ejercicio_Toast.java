@@ -74,6 +74,11 @@ public class Ejercicio_Toast  extends AppCompatActivity {
             finish();
             Intent ejercicio10 = new Intent(this, Registrar.class);
             startActivity(ejercicio10);
+        }else if (id == R.id.Ejercicio11) {
+            finish();
+            Intent ejercicio11 = new Intent(this, Ejercicio_segundaActivity2.class);
+            startActivity(ejercicio11);
+
         }else if (id == R.id.EjercicioPractivo) {
             finish();
             Intent ejercicioP = new Intent(this, Ejercicio_AdivinaElNumero.class);

@@ -63,6 +63,12 @@
         android:title="Registrar"
         app:showAsAction="never" />
     <item
+        android:id="@+id/Ejercicio11"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Parametros"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/EjercicioPractivo"
         android:enabled="true"
         android:orderInCategory="100"
