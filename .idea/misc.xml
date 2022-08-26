@@ -25,9 +25,14 @@
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/menu/menu_main.xml" value="0.2" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/menu/menu_registrar.xml" value="0.1633176571184267" />
         <entry key="..\:/Users/Salvador/Documents/Semana2_Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1625" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_acerca_de.xml" value="0.26875" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_actividad2.xml" value="0.26875" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_bienvenido.xml" value="0.26875" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercecio_segundo_activity.xml" value="0.26875" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio2_radio_grp_btn.xml" value="0.2677083333333333" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_adivina_el_numero.xml" value="0.5" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_check_box.xml" value="0.26875" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_control_edit_text.xml" value="0.26875" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_control_image_button.xml" value="0.26875" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_control_list_view.xml" value="0.33" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_ejercicio_control_spinner.xml" value="0.26875" />
@@ -35,6 +40,8 @@
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_main.xml" value="0.26875" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_main2.xml" value="0.2" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_registrar.xml" value="0.2" />
+        <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/layout/activity_segunda_activity2.xml" value="0.25" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/menu/menu_main.xml" value="0.25" />
         <entry key="..\:/Users/franc/AndroidStudioProjects/App_Practica2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2375" />
       </map>

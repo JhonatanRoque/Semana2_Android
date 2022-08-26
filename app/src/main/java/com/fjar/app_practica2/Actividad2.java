@@ -20,7 +20,7 @@ public class Actividad2 extends AppCompatActivity {
         webView1=(WebView) findViewById(R.id.webView);
         Bundle bundle = getIntent().getExtras();
         String dato = bundle.getString("direccion");
-        webView1.loadUrl("http://"+dato);
+        webView1.loadUrl("https://"+dato);
     }
     @Override
     public boolean onCreateOptionsMenu (Menu menu) {
